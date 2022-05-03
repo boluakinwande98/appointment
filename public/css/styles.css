@@ -1,0 +1,227 @@
+header {
+  background-color: #26533a;
+  position: relative;
+  top: -32px;
+}
+body {
+  font-family: 'Arima Madurai' !important;
+  font-size: 22px !important;
+}
+input {
+  text-align: center;
+}
+.nvbar {
+  position: relative;
+  width: 50%;
+  background-color: #26533a;
+}
+#de {
+  color: white;
+}
+.wrapper {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 0;
+  margin-top: 151px;
+}
+.page-container {
+  text-align: center;
+
+  width: 100%;
+
+  /* margin: 100px 50px 50px 50px; */
+}
+
+/* zoom social media*/
+
+.zoom {
+  padding: 0px;
+  background-color: green;
+  transition: transform 0.2s; /* Animation */
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.form-field {
+  margin: 40px 0 20px 0;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search-bar {
+  width: 25%;
+  height: 40px;
+}
+button {
+  background-color: #2b744b;
+  position: relative;
+  width: 20%;
+  color: white !important;
+  height: 40px;
+}
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+.responsive-table {
+  padding-left: 0;
+}
+h2 small {
+  font-size: 0.5em;
+}
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.responsive-table .table-header {
+  color: #fff;
+  background-color: #26533a;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 25%;
+}
+@media all and (max-width: 767px) {
+  header {
+    top: -31px;
+  }
+  button {
+    text-align: center;
+    font-size: 15px !important;
+  }
+  .search-bar {
+    font-size: 11px !important;
+  }
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    /* display: flex; */
+    text-align: center;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+.zoom:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.out-wrapper-footer {
+  /* margin: 0;
+  width: 100%; */
+  text-align: center;
+}
+.in-box-footer {
+  /* width: 100%; */
+  color: white;
+  background: #26533a;
+  border: 0px solid yellow;
+}
+.new-student {
+  position: relative;
+  margin-left: 40px;
+}
+.in-box-media-footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
+  background: #26533a;
+  border: 0px solid white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .in-box-footer {
+    width: 100%;
+    padding-bottom: 0px;
+
+    clear: both;
+  }
+  .in-box-media-footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #26533a;
+  }
+
+  .content-move-top {
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    border: 0px solid red;
+  }
+  .mobile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile-font {
+    font-size: 12px;
+  }
+  .mobile-phone-icon {
+    width: 15px;
+    height: 25px;
+  }
+  .wrapper {
+    width: 100%;
+    height: 10px;
+    margin-top: 159px;
+  }
+}
+
+.additional-footer {
+  background-color: #003764;
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .additional-footer {
+    width: 100%;
+    margin-right: -50px;
+    margin-bottom: -40px;
+  }
+  /*end additional*/
+}
